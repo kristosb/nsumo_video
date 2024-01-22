@@ -9,6 +9,7 @@
 
 int main(void)
 {
+    int arr[5] = {0}
     mcu_init();
     trace_init();
     drive_init();
@@ -17,7 +18,7 @@ int main(void)
     ir_remote_init();
 
     state_machine_run();
-
+    
     ASSERT(0);
     return 0;
 }
