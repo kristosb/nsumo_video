@@ -9,7 +9,7 @@
 
 int main(void)
 {
-    int arr[5] = {0}
+    int arr[5] = {0};
     mcu_init();
     trace_init();
     drive_init();
